@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import contentData from "./ContentData";
-import LanguageTabs from "./LanguageTabs";
+import LanguageTabs from "./Languagetabs";
 import Sidebars from "./Sidebars";
 import DynamicTopicRenderer from "./DynamicTopicRender";
 
