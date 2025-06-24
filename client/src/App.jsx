@@ -1,9 +1,9 @@
 // src/App.jsx
 import { Routes, Route } from "react-router-dom";
 import routes from "./routes/routesConfig";
-import Sidebar from "./components/Sidebar";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Sidebar from "./Components/Sidebar";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 const App = () => {
   // Flatten all routes including children for routing
