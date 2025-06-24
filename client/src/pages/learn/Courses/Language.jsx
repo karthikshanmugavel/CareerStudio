@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import contentData from "./ContentData";
 import LanguageTabs from "./LanguageTabs";
-import Sidebar from "./Sidebar";
+import Sidebars from "./Sidebars";
 import DynamicTopicRenderer from "./DynamicTopicRender";
 
 const Language = () => {
@@ -46,7 +46,7 @@ const Language = () => {
         {/* Sidebar with scrollbar */}
         <aside className="w-60 overflow-y-auto bg-gray-100 border-r p-4">
           {currentLanguage && (
-            <Sidebar
+            <Sidebars
               sections={currentLanguage.sub}
               onSelectTopic={setSelectedTopic}
             />

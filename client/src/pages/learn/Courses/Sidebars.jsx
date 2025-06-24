@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sidebar = ({ sections, onSelectTopic }) => {
+const Sidebars = ({ sections, onSelectTopic }) => {
   return (
     <div className="space-y-4">
       {sections.map((section) => (
@@ -24,4 +24,4 @@ const Sidebar = ({ sections, onSelectTopic }) => {
   );
 };
 
-export default Sidebar;
+export default Sidebars;

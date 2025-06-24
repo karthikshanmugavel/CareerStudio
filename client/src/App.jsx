@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import routes from "./routes/routesConfig";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
-import Footer from "./Components/Footer";
+import Footer from "./components/Footer";
 
 const App = () => {
   // Flatten all routes including children for routing
