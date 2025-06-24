@@ -1,0 +1,158 @@
+{
+  "Computer Science": [
+    {
+      "title": "E-Commerce Web Platform",
+      "description": "An online store with cart, payment gateway, and admin panel.",
+      "softwareUsed": ["ReactJS", "Node.js", "MongoDB", "Stripe API"]
+    },
+    {
+      "title": "Library Management System",
+      "description": "System for managing books, issuing, and returns with notifications.",
+      "softwareUsed": ["Java", "MySQL", "Spring Boot"]
+    },
+    {
+      "title": "Social Media App",
+      "description": "Create and share posts, chat, follow/unfollow features.",
+      "softwareUsed": ["ReactJS", "Firebase", "TailwindCSS"]
+    },
+    {
+      "title": "File Encryption and Decryption Tool",
+      "description": "Encrypt files for secure transfer across networks.",
+      "softwareUsed": ["Python", "PyCrypto", "Tkinter"]
+    },
+    {
+      "title": "Online Quiz Portal",
+      "description": "MCQ quiz system with timer and scoring.",
+      "softwareUsed": ["PHP", "MySQL", "Bootstrap"]
+    },
+    {
+      "title": "Resume Builder Web App",
+      "description": "User can create, edit, download professional resumes.",
+      "softwareUsed": ["ReactJS", "Node.js", "PDFMake"]
+    },
+    {
+      "title": "Event Management System",
+      "description": "Book halls, manage events, send invites online.",
+      "softwareUsed": ["ASP.NET Core", "SQL Server"]
+    },
+    {
+      "title": "Weather Forecasting App",
+      "description": "Real-time weather data using APIs.",
+      "softwareUsed": ["Flutter", "OpenWeather API"]
+    },
+    {
+      "title": "Online Code Compiler",
+      "description": "Compile and run C++, Java, Python code in browser.",
+      "softwareUsed": ["ReactJS", "Docker", "Express.js"]
+    },
+    {
+      "title": "Hospital Appointment Booking System",
+      "description": "Book doctor appointments with reminders and status tracking.",
+      "softwareUsed": ["Django", "SQLite", "Bootstrap"]
+    }
+  ],
+  "AI": [
+    {
+      "title": "AI-Powered Chatbot",
+      "description": "Answer customer queries intelligently.",
+      "softwareUsed": ["Python", "Dialogflow", "Flask"]
+    },
+    {
+      "title": "AI Virtual Assistant",
+      "description": "Voice-controlled AI assistant for desktops.",
+      "softwareUsed": ["Python", "SpeechRecognition", "Pyttsx3"]
+    },
+    {
+      "title": "Fake News Detection System",
+      "description": "Identify whether the news article is real or fake.",
+      "softwareUsed": ["Python", "Scikit-learn", "Pandas"]
+    },
+    {
+      "title": "Facial Expression Recognition System",
+      "description": "Detect emotions like happy, sad, angry from face images.",
+      "softwareUsed": ["Python", "OpenCV", "TensorFlow"]
+    },
+    {
+      "title": "AI-based Resume Screening Tool",
+      "description": "Filter job applicants automatically based on resumes.",
+      "softwareUsed": ["Python", "NLTK", "Scikit-learn"]
+    },
+    {
+      "title": "AI Stock Price Predictor",
+      "description": "Predict stock market prices using ML algorithms.",
+      "softwareUsed": ["Python", "LSTM", "Keras"]
+    },
+    {
+      "title": "AI Handwriting Recognition System",
+      "description": "Recognize handwritten digits or letters.",
+      "softwareUsed": ["Python", "TensorFlow", "MNIST Dataset"]
+    },
+    {
+      "title": "AI Video Summarizer",
+      "description": "Generate short summaries of long videos.",
+      "softwareUsed": ["Python", "OpenCV", "MoviePy"]
+    },
+    {
+      "title": "AI-Powered Language Translator",
+      "description": "Translate text/speech between languages.",
+      "softwareUsed": ["Python", "Google Translate API"]
+    },
+    {
+      "title": "AI Music Genre Classification",
+      "description": "Classify music files into genres based on audio features.",
+      "softwareUsed": ["Python", "Librosa", "Scikit-learn"]
+    }
+  ],
+  "Electrical & Electronics": [
+    {
+      "title": "Smart Home Automation",
+      "description": "Control home appliances remotely.",
+      "softwareUsed": ["Arduino", "C++", "Blynk App"]
+    },
+    {
+      "title": "Automatic Street Light Controller",
+      "description": "Turns street lights ON/OFF based on ambient light.",
+      "softwareUsed": ["Arduino", "LDR Sensor", "C++"]
+    },
+    {
+      "title": "IoT-Based Energy Meter Monitoring",
+      "description": "Monitor electricity usage and generate reports.",
+      "softwareUsed": ["ESP8266", "ThingSpeak", "Embedded C"]
+    },
+    {
+      "title": "Solar Power Monitoring System",
+      "description": "Track solar panel performance and power output.",
+      "softwareUsed": ["Raspberry Pi", "Python", "Sensors"]
+    },
+    {
+      "title": "Smart Irrigation System",
+      "description": "Automatically water plants based on soil moisture.",
+      "softwareUsed": ["Arduino", "Soil Moisture Sensor", "Blynk App"]
+    },
+    {
+      "title": "Over Voltage and Over Current Protection System",
+      "description": "Circuit to prevent damage from electrical surges.",
+      "softwareUsed": ["Proteus", "PCB Design Tools", "Embedded C"]
+    },
+    {
+      "title": "Voice Controlled Electrical Appliances",
+      "description": "Control fans, lights via voice commands.",
+      "softwareUsed": ["Arduino", "Bluetooth Module", "Android App"]
+    },
+    {
+      "title": "Electric Vehicle Battery Management System",
+      "description": "Monitor and manage EV battery health.",
+      "softwareUsed": ["MATLAB Simulink", "Embedded C"]
+    },
+    {
+      "title": "Digital Tachometer for Motors",
+      "description": "Measure the speed of rotating electrical machines.",
+      "softwareUsed": ["8051 Microcontroller", "Embedded C"]
+    },
+    {
+      "title": "Fire Detection and Alarm System",
+      "description": "Trigger alarm when fire or gas is detected.",
+      "softwareUsed": ["Arduino", "Flame Sensor", "Buzzer"]
+    }
+  ]
+}
