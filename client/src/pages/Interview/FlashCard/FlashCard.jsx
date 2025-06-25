@@ -19,7 +19,7 @@ const FlashCard = () => {
 
     try {
       const response = await fetch(
-        `https://ashwin07.pythonanywhere.com/api/questions?topic=${searchTerm}&level=${level}`
+        `https://hicore.pythonanywhere.com/api/questions?topic=${searchTerm}&level=${level}`
       );
 
       if (!response.ok) throw new Error("Failed to fetch");
