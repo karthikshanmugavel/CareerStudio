@@ -7,10 +7,10 @@ const Sidebar = () => {
   const [isSidebarVisible, setSidebarVisible] = useState(true);
 
   const toggleDropdown = (label) => {
-    setOpenDropdowns((prev) => ({
-      ...prev,
-      [label]: !prev[label],
-    }));
+    setOpenDropdowns((prev) => {
+      const isOpen = prev[label];
+      return isOpen ? {} : { [label]: true }; // Only one open at a time
+    });
   };
 
   const mainRoutes = routes.filter(

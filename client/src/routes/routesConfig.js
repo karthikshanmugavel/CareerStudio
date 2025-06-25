@@ -20,10 +20,9 @@ import MicroCertifications from "../pages/Certifications/MicroCertifications";
 import MiniProject from "../pages/Projects/MiniProject/MiniProject";
 import MajorProject from "../pages/Projects/MajorProject";
 import EmployerProblems from "../pages/Projects/EmployerProblems";
-import SavedProject from "../pages/Projects/SavedProject";
 import Quiz from "../pages/Interview/Quiz/Quiz";
 import MockInterview from "../pages/Interview/MockInterview";
-import PrepareInterview from "../pages/Interview/PrepareInterview";
+import PrepareInterview from "../pages/Interview/PrepareInterview/PrepareInterview";
 import FullTime from "../pages/Jobs/FullTime";
 import PartTime from "../pages/Jobs/PartTime";
 import Freelance from "../pages/Jobs/Freelance";
@@ -127,11 +126,7 @@ const routes = [
         label: "Employer Problems",
         component: EmployerProblems,
       },
-      {
-        path: "/projects/saved-project",
-        label: "Saved Project",
-        component: SavedProject,
-      },
+      
     ],
   },
   {

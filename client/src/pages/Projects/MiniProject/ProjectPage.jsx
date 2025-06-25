@@ -19,7 +19,7 @@ const ProjectsPage = () => {
   };
 
   return (
-    <div className="min-h-[calc(100vh-130px)] overflow-y-scroll p-6 bg-white hide-scrollbar">
+    <div className="min-h-[calc(100vh-100px)] overflow-y-auto p-6 bg-white scrollbar-hide">
       <h1 className="text-3xl font-bold mb-4 text-center text-indigo-900">
         Engineering Project Explorer
       </h1>
