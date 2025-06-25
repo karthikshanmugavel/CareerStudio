@@ -19,7 +19,7 @@ const Quiz = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://ashwin07.pythonanywhere.com/api/quiz/search?topic=${searchTerm}&level=${level}&count=${questionCount}`
+        `https://hicore.pythonanywhere.com/api/quiz?topic=${searchTerm}&level=${level}&count=${questionCount}`
       );
       if (!response.ok) throw new Error("Failed to fetch quiz data");
 
